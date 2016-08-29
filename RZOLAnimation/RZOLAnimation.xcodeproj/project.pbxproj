@@ -13,6 +13,9 @@
 		B3500C3D1D741204009110E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3500C3B1D741204009110E7 /* Main.storyboard */; };
 		B3500C3F1D741204009110E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3500C3E1D741204009110E7 /* Assets.xcassets */; };
 		B3500C421D741204009110E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3500C401D741204009110E7 /* LaunchScreen.storyboard */; };
+		B3500C501D741333009110E7 /* autoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B3500C4B1D741333009110E7 /* autoButton.m */; };
+		B3500C511D741333009110E7 /* ZMDrawCircleWithAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3500C4D1D741333009110E7 /* ZMDrawCircleWithAnimation.m */; };
+		B3500C521D741333009110E7 /* ZMDrawRect.m in Sources */ = {isa = PBXBuildFile; fileRef = B3500C4F1D741333009110E7 /* ZMDrawRect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		B3500C3E1D741204009110E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3500C411D741204009110E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3500C431D741204009110E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3500C4A1D741333009110E7 /* autoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autoButton.h; sourceTree = "<group>"; };
+		B3500C4B1D741333009110E7 /* autoButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = autoButton.m; sourceTree = "<group>"; };
+		B3500C4C1D741333009110E7 /* ZMDrawCircleWithAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMDrawCircleWithAnimation.h; sourceTree = "<group>"; };
+		B3500C4D1D741333009110E7 /* ZMDrawCircleWithAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMDrawCircleWithAnimation.m; sourceTree = "<group>"; };
+		B3500C4E1D741333009110E7 /* ZMDrawRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMDrawRect.h; sourceTree = "<group>"; };
+		B3500C4F1D741333009110E7 /* ZMDrawRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMDrawRect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 		B3500C311D741204009110E7 /* RZOLAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				B3500C491D741333009110E7 /* RZOLAnimation */,
 				B3500C351D741204009110E7 /* AppDelegate.h */,
 				B3500C361D741204009110E7 /* AppDelegate.m */,
 				B3500C381D741204009110E7 /* ViewController.h */,
@@ -77,6 +87,19 @@
 				B3500C331D741204009110E7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3500C491D741333009110E7 /* RZOLAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				B3500C4A1D741333009110E7 /* autoButton.h */,
+				B3500C4B1D741333009110E7 /* autoButton.m */,
+				B3500C4C1D741333009110E7 /* ZMDrawCircleWithAnimation.h */,
+				B3500C4D1D741333009110E7 /* ZMDrawCircleWithAnimation.m */,
+				B3500C4E1D741333009110E7 /* ZMDrawRect.h */,
+				B3500C4F1D741333009110E7 /* ZMDrawRect.m */,
+			);
+			path = RZOLAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3500C501D741333009110E7 /* autoButton.m in Sources */,
 				B3500C3A1D741204009110E7 /* ViewController.m in Sources */,
 				B3500C371D741204009110E7 /* AppDelegate.m in Sources */,
+				B3500C511D741333009110E7 /* ZMDrawCircleWithAnimation.m in Sources */,
+				B3500C521D741333009110E7 /* ZMDrawRect.m in Sources */,
 				B3500C341D741204009110E7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
